@@ -137,7 +137,7 @@ body{
 	line-height:25px;
 	/*text-shadow: 0 1px 0 #d6f0ff;*/
 	text-align:justify;
-	padding:10px 0 30px;
+	/*padding:10px 0 30px;*/
 	/*margin:0 0 0 29px;*/
 }
 .body div div#featured a{
@@ -257,7 +257,7 @@ body{
 	*/ 
 	
 	/*my additions*/
-	padding: 0 29px !important;
+	/*padding: 0 29px !important;*/
 	margin:0 auto;
 	/*width:940px;*/
 	color:#31607e;
