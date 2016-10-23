@@ -334,7 +334,7 @@ body{
 }
 .body div div{
 	width:940px;
-	padding: 0 10px 54px !important; 
+	/*padding: 0 10px 54px !important;*/ 
 	margin:0 auto;
 	/*background:url(../images/bg-content3.jpg) no-repeat center top!important;*/
 	overflow:hidden;
