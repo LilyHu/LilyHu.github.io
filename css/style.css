@@ -29,7 +29,9 @@ body{
 	/*background:url(../images/bg-header.gif) repeat-x;*/
 	background:#FFFFFF
 	height:68px;
-    padding:30px 0 0;
+	padding:30px 0 0;
+	width: 940px;
+	margin: 0 auto;
 }
 .header div{
 	width:940px;
@@ -47,7 +49,7 @@ body{
 	/*text-shadow: 0 10px 3px #9ec7e5;*/
 	
 	/*font-family: 'RokkittRegular';*/
-	margin:75px 0 20px 29px;
+	/*margin:75px 0 20px 29px;*/
 	width:360px;
 	padding:10px 0 30px;
 	font-weight:bold;
@@ -136,7 +138,7 @@ body{
 	/*text-shadow: 0 1px 0 #d6f0ff;*/
 	text-align:justify;
 	padding:10px 0 30px;
-	margin:0 0 0 29px;
+	/*margin:0 0 0 29px;*/
 }
 .body div div#featured a{
 	background:url(../images/interface.png) no-repeat 0 20px;
