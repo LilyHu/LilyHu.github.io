@@ -100,7 +100,7 @@ body{
 	/*background:url(../images/bg-content.gif) repeat-x #90C5E7;*/
 	background-color: #FFFFFF;
 	width: 940px;
-	margin: 0 auto;
+	margin: 0 auto 100px;
 }
 .body div:first-child{
 	/*background:url(../images/top-border.gif) repeat-x left bottom;
