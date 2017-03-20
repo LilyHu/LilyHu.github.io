@@ -140,23 +140,7 @@ body{
 	/*padding:10px 0 30px;*/
 	/*margin:0 0 0 29px;*/
 }
-.body div div#featured a{
-	background:url(../images/interface.png) no-repeat 0 20px;
-	border:0;
-    height:102px;
-    width:392px;
-	font-family: 'RokkittRegular';
-	color:#32617f;
-	font-size:20px;
-	font-weight:bold;
-	margin:0;
-	outline:none;
-	display:block;
-	text-decoration:none;
-	text-align:center;
-	line-height:95px;
-	text-shadow: 0 1px 0 #dbebfa;
-}
+
 .body div{
 	width:100%;/*360px;*/
 	
