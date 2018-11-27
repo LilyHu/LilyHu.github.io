@@ -141,6 +141,20 @@ body{
 	/*margin:0 0 0 29px;*/
 }
 
+.body div div#featured a{
+	color:#31607e;
+	font-family:verdana;
+	font-size:14px;
+	line-height:25px;
+	/*text-shadow: 0 1px 0 #d6f0ff;*/
+	text-align:justify;
+	/*padding:10px 0 30px;*/
+	/*margin:0 0 0 29px;*/
+	text-decoration: underline;
+}
+	
+}
+
 .body div{
 	width:100%;/*360px;*/
 	
