@@ -1,140 +1,191 @@
 <!DOCTYPE html>
-<!-- Website template by freewebsitetemplates.com -->
 <html>
 <head>
 	<meta charset="UTF-8">
 	<title>Lily Hu</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css">
-	<!--[if IE 7]>
-			<link rel="stylesheet" href="css/ie7.css" type="text/css">
-		<![endif]-->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<style>
+body {
+	background-color: #f4f4f4;
+}
+
+body a {
+	color: #008;
+	text-decoration: none;
+}
+
+.paper {
+	background-color: #fff;
+	box-shadow: 0 0 10px #ccc;
+	width: 960px;
+	margin: auto;
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5em;
+	padding: 10px 40px;
+}
+
+.header {
+	position: relative;
+	height: 60px;
+	margin: 0;
+}
+
+.header h1 {
+	line-height: 60px;
+}
+
+.top-links {
+	list-style-type: none;
+	margin: auto 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.top-links li {
+	display: inline-block;
+	margin: 10px;
+}
+
+.main {
+	position: relative;
+}
+
+.main .featured {
+	background-color: #f6f6f6;
+	margin: 20px 0;
+	padding: 2px 20px;
+}
+
+.main h3 {
+	margin-top: 40px;
+}
+
+.main .about {
+	width: 240px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.main .about .links {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.main .about img {
+	width: 100%;
+}
+
+.main .content {
+	width: 690px;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+	</style>
 </head>
 <body>
-	<div class="page">
-		
+	<div class="paper">
 		<div class="header">
-			<div>		
-				<a href="index.html" id="logo">Lily Hu</a>
-				<!-- 
-				<ul>
-					<li class="selected">
-						<a href="index.html">Home</a>
-					</li>
-					<li>
-						<a href="resume_cv.html">Resume/CV</a>
-					</li>
-					<li>
-						<a href="publications.html">Publications</a>
-					</li>
-				</ul>
-				-->
-			</div>
+			<h1>Lily Hu</h1>
+			<ul class="top-links">
+				<li><a href="https://www.linkedin.com/in/rlilyhu">LinkedIn</a></li>
+				<li><a href="https://github.com/LilyHu/">Github</a></li>
+				<li><a href="https://twitter.com/rlilyhu">Twitter</a></li>
+				<li><a href="https://scholar.google.com/citations?user=mCRODPkAAAAJ&hl=en">Google Scholar</a></li>
+			</ul>
 		</div>
-
-		<div class="body">
-			<div>
-				<div id="featured">
-					<h3>Welcome</h3>
-					<br>
-					<p>I am a Research Scientist in deep learning at <a href="https://einstein.ai/research">Salesforce Research (MetaMind)</a>. My current research interests include machine learning on multimodal data, combining natural language with computer vision, zero-shot learning, inclusion of prior knowledge and expert knowledge, and deep learning for specialized domains such as medicine and engineering. I also conducted research at the intersection of applied mathematics and energy. I studied statistics, optimization, and machine learning to improve energy generation and efficiency.</p>
-					</p>						
-					<br>	
-					<p>I earned my PhD and MS from the University of California, Berkeley in Mechanical Engineering.  I completed my BASci in Engineering Science from the University of Toronto.</p>
-					<!--<p>This website describes my engineering projects from work and research.</p>-->
-					<br>
-					<p>Contact: lhu [at] berkeley [dot] edu</p>
-					<br> 
-					<a href="https://drive.google.com/file/d/1kFhoQcb_VnBhakot57yx_rgsKauokm7-/view?usp=sharing">CV/Resume</a>
-					<br>
-					<a href="https://drive.google.com/file/d/1ZQrYYZKipq3ro3jtyuIzn3Ew6eKGFL6f/view?usp=sharing">Research Statement</a>
-					<br>
-					<a href="https://docs.google.com/document/d/1QAwshDbbV2j9V4nUJOYvzbbxZREP7G4NSXkdpxcQtnE/edit?usp=sharing">Courses Studied</a>
-					<br>
-					<a href="https://www.linkedin.com/in/rlilyhu">LinkedIn</a> 
-					<br>
-					<a href="https://github.com/LilyHu/">Github</a> 
-					<br>
-					<a href="https://twitter.com/rlilyhu">Twitter</a>
+		<div class="main">
+			<div class="about">
+				<img src="images/Lily.jpg">
+				<ul class="links">
+					<li><a href="https://drive.google.com/file/d/1kFhoQcb_VnBhakot57yx_rgsKauokm7-/view?usp=sharing">CV/Resume</a></li>
+					<li><a href="https://drive.google.com/file/d/1ZQrYYZKipq3ro3jtyuIzn3Ew6eKGFL6f/view?usp=sharing">Research Statement</a></li>
+					<li><a href="https://docs.google.com/document/d/1QAwshDbbV2j9V4nUJOYvzbbxZREP7G4NSXkdpxcQtnE/edit?usp=sharing">Courses Studied</a></li>
+					<li>Email: lhu [at] berkeley [dot] edu</li>
+				</ul>
+			</div>
+			<div class="content">
+				<div class="featured">
+					<p>I am a Research Scientist in deep learning at <a href="https://einstein.ai/research">Salesforce Research (MetaMind)</a>. My current research interests include machine learning on multimodal data, combining natural language with computer vision, zero-shot learning, inclusion of prior knowledge and expert knowledge, and deep learning for specialized domains such as medicine and engineering. I also conducted research at the intersection of applied mathematics and energy. I studied statistics, optimization, and machine learning to improve energy generation and efficiency.
+					<p>I earned my PhD and MS from the <a href="https://www.berkeley.edu/">University of California, Berkeley</a> in <a href="https://me.berkeley.edu/">Mechanical Engineering</a>.  I completed my BASci in <a href="https://engsci.utoronto.ca/">Engineering Science</a> from the <a href="https://www.utoronto.ca/">University of Toronto</a>.
+				</div>
 
 				<h3>Publications</h3>
 				
 				<h4>Journals</h4>
-				<p><em>Machine Learning for Automated Sensor Selection for Energy Fault Detection</em></p>
-				<p>Hu, RL, Granderson, JG, Auslander, DM, Agogino, AM.</p>
-				<p>Applied Energy (In Press), 2019</p>
-				<br>
-				<p><em>Diagnosing and Predicting Wind Turbine Faults Using Machine Learning Techniques Applied to SCADA Data</em></p>
-				<p>Leahy, K, Hu, RL, Konstantakopoulos, IC, Spanos, C, Agogino, AM, O'Sullivan, DTJ.</p>
-				<p>International Journal of Prognostics and Health Management, 2018</p>
-				<br>
-				<p><em>A Mathematical Programming Formulation for Optimal Load Shifting of Electricity Demand for the Smart Grid</em></p>
-				<p>Hu, RL, Skorupski, R, Entriken, R, Ye, Y.</p>
-				<p>IEEE Transactions on Big Data: Big Data for Cyber-Physical Systems, 2017</p>
-				<br>
-					
+				<p><em>Machine Learning for Automated Sensor Selection for Energy Fault Detection</em>
+				<br>Hu, RL, Granderson, JG, Auslander, DM, Agogino, AM.
+				<br>Applied Energy, 2019
+				
+				<p><em>Diagnosing and Predicting Wind Turbine Faults Using Machine Learning Techniques Applied to SCADA Data</em>
+				<br>Leahy, K, Hu, RL, Konstantakopoulos, IC, Spanos, C, Agogino, AM, O'Sullivan, DTJ.
+				<br>International Journal of Prognostics and Health Management, 2018
+				
+				<p><em>A Mathematical Programming Formulation for Optimal Load Shifting of Electricity Demand for the Smart Grid</em>
+				<br>Hu, RL, Skorupski, R, Entriken, R, Ye, Y.
+				<br>IEEE Transactions on Big Data: Big Data for Cyber-Physical Systems, 2017
+
 				<h4>Peer-Reviewed Conference and Workshop Papers</h4>
-				<p><em>Zero-Shot Image Classification Guided by Natural Language Descriptions of Classes</em></p>
-				<p>Hu, RL, Xiong, C, Socher, R.</p>
-				<p>Neural Information Processing Systems Visually Grounded Interaction and Language Workshop, 2018</p>
-				<br>
-				<p><em>Image Segmentation to Distinguish Between Overlapping Human Chromosomes</em></p>
-				<p>Hu, RL, Karnowski, J, Fadely, R, Pommier, JP.</p>
-				<p>Neural Information Processing Systems Machine Learning for Health Workshop, 2017</p>
-				<br>
-				<p><em>Application Domain Knowledge Features for Diagnostics in Wind Turbines</em></p>
-				<p>Hu, RL, Leahy, K, Konstantakopoulos, IC, Auslander, DM, Spanos, C, Agogino, AM.</p>
-				<p>IEEE International Conference on Machine Learning and Applications, 2016.</p>
-				<br>
-				<p><em>Diagnosing Wind Turbine Faults Using Machine Learning Techniques Applied to Operational Data</em></p>
-				<p>Leahy, K, Hu, RL, Konstantakopoulos, IC, Spanos, C, Agogino, AM.</p>
-				<p>IEEE Reliability Society: IEEE International Conference on Prognostics and Health Management, 2016.</p>
-				<br>
-				<p><em>Can We Practically Bring Physics-based Modeling Into Operational Analytics Tools?</em></p>
-				<p>Granderson, J, Bonvini, M, Piette, MA, Lin, G, Hu, RL.</p>
-				<p>American Council on an Energy-Efficient Economy: Summer Study on Energy Efficiency in Buildings,  2016.</p>
-				<br>
-				<p><em>Detection of a Chiller Energy Efficiency Fault Using Expectation Maximization</em></p>
-				<p>Hu, RL, Granderson, J, Agogino, A.</p>
-				<p>ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2015.</p>
-				<br>
-				<p><em>A Benefit-Cost Framework for Optimal Load Shifting</em></p>
-				<p>Skorupski, R, Hu, RL, Entriken, R, Ye, Y.</p>
-				<p>Advanced Workshop in Regulation and Competition 28th Annual Western Conference, 2014.</p>
-				<br>
-				<p><em>A Benefit-Cost Framework for Optimal Load Shifting</em></p>
-				<p>Skorupski, R, Hu, RL, Entriken, R, Ye, Y.</p>
-				<p>CIGRÉ (The Council on Large Electric Systems) US National Committee: Grid of the Future Symposium, 2014.</p>
-				<br>
-				<p><em>Zero Emissions Medical Shelter</em></p>
-				<p>Ing, A, Hu, L, Hyun, S, Kuang, A.</p>
-				<p>Meeting of the International Society for the Systems Sciences,  2012.</p>
-				<br>
-				<p><em>Fundamental analysis methods for heating and cooling systems, from the Energy Information Handbook</em></p>
-				<p>Granderson, J, Piette MA, Rosenblum, B, Hu, L.</p>
-				<p>HPAC Engineering, 2012.</p>
-				<br>
-				<p><em>Making the most of energy data: A handbook for facility managers, owners and operators</em></p>
-				<p>Granderson, J, Hu, RL, Piette MA, Rosenblum, B.</p>
-				<p>American Council on an Energy-Efficient Economy: Summer Study on Energy Efficiency in Buildings, 2012.</p>
-				<br>
-				<p><em>Influence of geographic location and local demand on the attractiveness of airports to transfer traffic</em></p>
-				<p>de Barros, AG, Hu, L, Tay, R.</p>
-				<p>Air Transport Research Society World Conference, 2011.</p>
+				<p><em>Zero-Shot Image Classification Guided by Natural Language Descriptions of Classes</em>
+				<br>Hu, RL, Xiong, C, Socher, R.
+				<br>Neural Information Processing Systems Visually Grounded Interaction and Language Workshop, 2018
+
+				<p><em>Image Segmentation to Distinguish Between Overlapping Human Chromosomes</em>
+				<br>Hu, RL, Karnowski, J, Fadely, R, Pommier, JP.
+				<br>Neural Information Processing Systems Machine Learning for Health Workshop, 2017
+
+				<p><em>Application Domain Knowledge Features for Diagnostics in Wind Turbines</em>
+				<br>Hu, RL, Leahy, K, Konstantakopoulos, IC, Auslander, DM, Spanos, C, Agogino, AM.
+				<br>IEEE International Conference on Machine Learning and Applications, 2016.
+
+				<p><em>Diagnosing Wind Turbine Faults Using Machine Learning Techniques Applied to Operational Data</em>
+				<br>Leahy, K, Hu, RL, Konstantakopoulos, IC, Spanos, C, Agogino, AM.
+				<br>IEEE Reliability Society: IEEE International Conference on Prognostics and Health Management, 2016.
+
+				<p><em>Can We Practically Bring Physics-based Modeling Into Operational Analytics Tools?</em>
+				<br>Granderson, J, Bonvini, M, Piette, MA, Lin, G, Hu, RL.
+				<br>American Council on an Energy-Efficient Economy: Summer Study on Energy Efficiency in Buildings,  2016.
+
+				<p><em>Detection of a Chiller Energy Efficiency Fault Using Expectation Maximization</em>
+				<br>Hu, RL, Granderson, J, Agogino, A.
+				<br>ASME International Design Engineering Technical Conferences and Computers and Information in Engineering Conference, 2015.
+
+				<p><em>A Benefit-Cost Framework for Optimal Load Shifting</em>
+				<br>Skorupski, R, Hu, RL, Entriken, R, Ye, Y.
+				<br>Advanced Workshop in Regulation and Competition 28th Annual Western Conference, 2014.
+
+				<p><em>A Benefit-Cost Framework for Optimal Load Shifting</em>
+				<br>Skorupski, R, Hu, RL, Entriken, R, Ye, Y.
+				<br>CIGRÉ (The Council on Large Electric Systems) US National Committee: Grid of the Future Symposium, 2014.
+
+				<p><em>Zero Emissions Medical Shelter</em>
+				<br>Ing, A, Hu, L, Hyun, S, Kuang, A.
+				<br>Meeting of the International Society for the Systems Sciences,  2012.
+
+				<p><em>Fundamental analysis methods for heating and cooling systems, from the Energy Information Handbook</em>
+				<br>Granderson, J, Piette MA, Rosenblum, B, Hu, L.
+				<br>HPAC Engineering, 2012.
+
+				<p><em>Making the most of energy data: A handbook for facility managers, owners and operators</em>
+				<br>Granderson, J, Hu, RL, Piette MA, Rosenblum, B.
+				<br>American Council on an Energy-Efficient Economy: Summer Study on Energy Efficiency in Buildings, 2012.
+
+				<p><em>Influence of geographic location and local demand on the attractiveness of airports to transfer traffic</em>
+				<br>de Barros, AG, Hu, L, Tay, R.
+				<br>Air Transport Research Society World Conference, 2011.
 
 				<h4>Book</h4>
-				<p><em>Energy Information Handbook: Applications for efficient building operations</em></p> 
-				<p>Printed and published by the US Department of Energy, Energy Efficiency and Renewable Energy, Building Technologies Program</p>
-				<p>Available on <a href="https://amzn.com/1480178276">Amazon</a> and <a href="http://eis.lbl.gov/energy-information-handbook.html">online</a>.</p>	
-
-				<br>
-				<p><a href="https://scholar.google.com/citations?user=mCRODPkAAAAJ&hl=en">Google Scholar</a></p></p>	
-				
-			
-			
-				</div>
+				<p><em>Energy Information Handbook: Applications for efficient building operations</em>
+				<br>Printed and published by the US Department of Energy, Energy Efficiency and Renewable Energy, Building Technologies Program
+				<br>Available on <a href="https://amzn.com/1480178276">Amazon</a> and <a href="http://eis.lbl.gov/energy-information-handbook.html">online</a>.
 			</div>
 		</div>
-	
 	</div>
 </body>
 </html>
