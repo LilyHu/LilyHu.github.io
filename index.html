@@ -50,6 +50,36 @@ body a {
 	margin: 10px;
 }
 
+.top-links li a {
+	color: #444;
+}
+
+.top-links li a::before {
+	content: "";
+	background-size: 1.5em 1.5em;
+	width: 1.5em;
+	height: 1.5em;
+	display: inline-block;
+	margin-right: 4px;
+	vertical-align: bottom;
+}
+
+.linkedin::before {
+	background-image: url(images/social-1_round-linkedin.svg);
+}
+
+.github::before {
+	background-image: url(images/social-1_round-github.svg);
+}
+
+.twitter::before {
+	background-image: url(images/social-1_round-twitter.svg);
+}
+
+.top-links li a span {
+	display: none;
+}
+
 .main {
 	position: relative;
 }
@@ -104,7 +134,6 @@ body a {
 				<li><a href="https://www.linkedin.com/in/rlilyhu">LinkedIn</a></li>
 				<li><a href="https://github.com/LilyHu/">Github</a></li>
 				<li><a href="https://twitter.com/rlilyhu">Twitter</a></li>
-				<li><a href="https://scholar.google.com/citations?user=mCRODPkAAAAJ&hl=en">Google Scholar</a></li>
 			</ul>
 		</div>
 		<div class="main">
@@ -116,9 +145,10 @@ body a {
 				<div class="about">
 					<img src="images/Lily.jpg">
 					<ul class="links">
-						<li><a href="https://drive.google.com/file/d/1kFhoQcb_VnBhakot57yx_rgsKauokm7-/view?usp=sharing">CV/Resume</a></li>
-						<li><a href="https://drive.google.com/file/d/1ZQrYYZKipq3ro3jtyuIzn3Ew6eKGFL6f/view?usp=sharing">Research Statement</a></li>
+						<!--<li><a href="https://drive.google.com/file/d/1kFhoQcb_VnBhakot57yx_rgsKauokm7-/view?usp=sharing">CV/Resume</a></li>-->
+						<!--<li><a href="https://drive.google.com/file/d/1ZQrYYZKipq3ro3jtyuIzn3Ew6eKGFL6f/view?usp=sharing">Research Statement</a></li>-->
 						<li><a href="https://docs.google.com/document/d/1QAwshDbbV2j9V4nUJOYvzbbxZREP7G4NSXkdpxcQtnE/edit?usp=sharing">Courses Studied</a></li>
+						<li><a href="https://scholar.google.com/citations?user=mCRODPkAAAAJ&hl=en">Google Scholar</a></li>
 						<li>Email: lhu [at] berkeley [dot] edu</li>
 					</ul>
 				</div>
